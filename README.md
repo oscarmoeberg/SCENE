@@ -34,6 +34,19 @@ python -m pip install -e ".[tutorial]"
 python -m jupyter lab examples/scene_quickstart_ifnb.ipynb
 ```
 
+Install SCENE from PyPI:
+
+```bash
+pip install scene-ldm
+```
+
+For plotting and UMAP visualization:
+
+```bash
+pip install "scene-ldm[plotting]"
+```
+
+
 ## Quick start
 
 Start with an `AnnData` object containing quality-controlled raw UMI counts
