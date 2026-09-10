@@ -48,3 +48,9 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/oscarmoeberg/SCENE"
+Repository = "https://github.com/oscarmoeberg/SCENE"
+Documentation = "https://github.com/oscarmoeberg/SCENE/blob/main/docs/api.md"
+Issues = "https://github.com/oscarmoeberg/SCENE/issues"
