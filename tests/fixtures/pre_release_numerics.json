@@ -1,0 +1,158 @@
+[
+  {
+    "likelihood": "Poisson",
+    "batch_effect_type": "none",
+    "cell_batch_size": null,
+    "loss": [
+      2.008427143096924,
+      1.9932574033737183
+    ],
+    "expected": [
+      0.3472117483615875,
+      0.2500358819961548
+    ]
+  },
+  {
+    "likelihood": "Poisson",
+    "batch_effect_type": "none",
+    "cell_batch_size": 2,
+    "loss": [
+      2.0064573287963867,
+      1.9796504974365234
+    ],
+    "expected": [
+      0.349539190530777,
+      0.2527148723602295
+    ]
+  },
+  {
+    "likelihood": "Poisson",
+    "batch_effect_type": "full",
+    "cell_batch_size": null,
+    "loss": [
+      2.008427143096924,
+      1.9891979694366455
+    ],
+    "expected": [
+      0.3437577188014984,
+      0.24754822254180908
+    ]
+  },
+  {
+    "likelihood": "Poisson",
+    "batch_effect_type": "full",
+    "cell_batch_size": 2,
+    "loss": [
+      2.0048980712890625,
+      1.970386266708374
+    ],
+    "expected": [
+      0.3432619869709015,
+      0.24770960211753845
+    ]
+  },
+  {
+    "likelihood": "Poisson",
+    "batch_effect_type": "lowrank",
+    "cell_batch_size": null,
+    "loss": [
+      2.0084309577941895,
+      1.9931563138961792
+    ],
+    "expected": [
+      0.3471144139766693,
+      0.24994754791259766
+    ]
+  },
+  {
+    "likelihood": "Poisson",
+    "batch_effect_type": "lowrank",
+    "cell_batch_size": 2,
+    "loss": [
+      2.0064263343811035,
+      1.9793741703033447
+    ],
+    "expected": [
+      0.3492773175239563,
+      0.25247707962989807
+    ]
+  },
+  {
+    "likelihood": "ZIP",
+    "batch_effect_type": "none",
+    "cell_batch_size": null,
+    "loss": [
+      2.035940647125244,
+      2.0193469524383545
+    ],
+    "expected": [
+      0.3065725862979889,
+      0.22765575349330902
+    ]
+  },
+  {
+    "likelihood": "ZIP",
+    "batch_effect_type": "none",
+    "cell_batch_size": 2,
+    "loss": [
+      2.033139228820801,
+      2.003338098526001
+    ],
+    "expected": [
+      0.3102665841579437,
+      0.23141223192214966
+    ]
+  },
+  {
+    "likelihood": "ZIP",
+    "batch_effect_type": "full",
+    "cell_batch_size": null,
+    "loss": [
+      2.035940647125244,
+      2.015533685684204
+    ],
+    "expected": [
+      0.30382511019706726,
+      0.2255854457616806
+    ]
+  },
+  {
+    "likelihood": "ZIP",
+    "batch_effect_type": "full",
+    "cell_batch_size": 2,
+    "loss": [
+      2.031700849533081,
+      1.9946608543395996
+    ],
+    "expected": [
+      0.30518487095832825,
+      0.2272493690252304
+    ]
+  },
+  {
+    "likelihood": "ZIP",
+    "batch_effect_type": "lowrank",
+    "cell_batch_size": null,
+    "loss": [
+      2.035946846008301,
+      2.019253730773926
+    ],
+    "expected": [
+      0.30649685859680176,
+      0.2275823950767517
+    ]
+  },
+  {
+    "likelihood": "ZIP",
+    "batch_effect_type": "lowrank",
+    "cell_batch_size": 2,
+    "loss": [
+      2.0331125259399414,
+      2.0030837059020996
+    ],
+    "expected": [
+      0.31006577610969543,
+      0.23121750354766846
+    ]
+  }
+]

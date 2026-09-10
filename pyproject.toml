@@ -1,0 +1,50 @@
+[project]
+name = "scene-ldm"
+version = "0.1.0"
+description = "Package for Single-Cell Euclidean Network Embedding (SCENE)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+  { name = "oscarmoeberg", email = "oscarmberg@gmail.com" }
+]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "scipy>=1.10",
+  "torch>=2.0",
+  "scikit-learn>=1.2",
+  "anndata>=0.9",
+]
+
+[tool.poetry]
+packages = [
+  { include = "scene", from = "src" }
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.optional-dependencies]
+plotting = [
+  "matplotlib>=3.6",
+  "umap-learn>=0.5",
+]
+tutorial = [
+  "scanpy>=1.10.3",
+  "matplotlib>=3.6",
+  "umap-learn>=0.5",
+  "jupyterlab>=4",
+]
+performance = [
+  "numba>=0.57",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

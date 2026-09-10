@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use SCENE, please cite this software and the accompanying manuscript."
+type: software
+title: "SCENE: Single-Cell Euclidean Network Embedding"
+authors:
+  - family-names: "Møberg"
+    given-names: "Oscar Lauritz"
+version: 0.1.0
+license: MIT
