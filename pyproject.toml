@@ -1,6 +1,6 @@
 [project]
 name = "scene-ldm"
-version = "0.1.0"
+version = "0.1.2"
 description = "Package for Single-Cell Euclidean Network Embedding (SCENE)"
 readme = "README.md"
 requires-python = ">=3.9"
