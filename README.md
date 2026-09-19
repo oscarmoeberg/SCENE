@@ -6,7 +6,13 @@ RNA sequencing data. SCENE places cells and genes in a shared Euclidean space
 directly from raw UMI counts, enabling analysis of cell–gene relationships
 through distances in the learned representation.
 
-https://github.com/user-attachments/assets/ce0ae060-26c8-46d7-ac57-f26da177736b
+<div align="center">
+  <video
+    src="https://github.com/user-attachments/assets/ce0ae060-26c8-46d7-ac57-f26da177736b"
+    width="360"
+    controls>
+  </video>
+</div>
 
 The [IFN-β tutorial](examples/scene_quickstart_ifnb.ipynb) walks through loading
 raw PBMC counts, fitting SCENE, and interpreting the results.
