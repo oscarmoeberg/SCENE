@@ -7,3 +7,29 @@ authors:
     given-names: "Oscar Lauritz"
 version: 0.1.0
 license: MIT
+preferred-citation:
+  type: article
+  title: "Setting the SCENE for Interpretable Cell-Gene Embeddings in Single-Cell RNA-seq"
+  authors:
+    - family-names: "Møberg"
+      given-names: "Oscar Lauritz"
+      orcid: "https://orcid.org/0009-0004-3505-1892"
+    - family-names: "Petersen"
+      given-names: "Magnus Blom"
+      orcid: "https://orcid.org/0009-0003-4861-4773"
+    - family-names: "Herlau"
+      given-names: "Tue"
+      orcid: "https://orcid.org/0000-0001-7288-6953"
+    - family-names: "Kristensen"
+      given-names: "Lars Erik"
+      orcid: "https://orcid.org/0000-0002-0686-7102"
+    - family-names: "Jessen"
+      given-names: "Leon Eyrich"
+      orcid: "https://orcid.org/0000-0003-2879-2559"
+    - family-names: "Mørup"
+      given-names: "Morten"
+      orcid: "https://orcid.org/0000-0003-4985-4368"
+  journal: "bioRxiv"
+  year: 2026
+  doi: "10.64898/2026.09.12.750699"
+  notes: "Preprint"

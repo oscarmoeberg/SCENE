@@ -6,6 +6,9 @@ RNA sequencing data. SCENE places cells and genes in a shared Euclidean space
 directly from raw UMI counts, enabling analysis of cell–gene relationships
 through distances in the learned representation.
 
+**Paper:** [Setting the SCENE for Interpretable Cell-Gene Embeddings in Single-Cell RNA-seq](https://doi.org/10.64898/2026.09.12.750699)
+(bioRxiv preprint, 2026).
+
 <div align="center">
   <video
     src="https://github.com/user-attachments/assets/ce0ae060-26c8-46d7-ac57-f26da177736b"
@@ -110,11 +113,19 @@ ax.figure.savefig("scene_joint.png", bbox_inches="tight")
 UMAP is used for visualization. Gene queries and distances use the original
 SCENE coordinates.
 
-## Documentation and citation
+## Documentation
 
 See the [IFN-β tutorial](examples/scene_quickstart_ifnb.ipynb) for a complete
 workflow and the [API reference](docs/api.md) for model options, neighbor
 queries, count prediction, validation, and saving and loading results.
 
-Software citation details are in [CITATION.cff](CITATION.cff).
+## Citation
+
+If you use SCENE, please cite the accompanying preprint:
+
+Møberg, O. L., Petersen, M. B., Herlau, T., Kristensen, L. E., Jessen, L. E.,
+& Mørup, M. (2026). **Setting the SCENE for Interpretable Cell-Gene Embeddings
+in Single-Cell RNA-seq.** bioRxiv. https://doi.org/10.64898/2026.09.12.750699
+
+Software metadata and the preferred paper citation are in [CITATION.cff](CITATION.cff).
 SCENE is distributed under the [MIT license](LICENSE).
